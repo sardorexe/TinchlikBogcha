@@ -1,0 +1,96 @@
+.responsive-nav {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 10px 0px 10px 10px;
+  .logo {
+    h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      margin: 0;
+      padding-left: 8px;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+  .nav-items {
+    a {
+      padding: 20px 10px;
+      color: rgba(255, 255, 255, 0.932);
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      &:hover {
+        color: #000;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+@media (max-width: 653px) {
+  .navigation {
+    display: none;
+  }
+
+  .responsive-nav {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    .control {
+      padding: 5px 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      h3 {
+        margin: 0;
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 700;
+          font-size: 25px;
+          letter-spacing: 1.2px;
+        }
+      }
+      .icon {
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+      .up {
+        transform: rotate(180deg);
+      }
+    }
+    .nav-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 0;
+      overflow: hidden;
+      a {
+        padding: 17px 0px;
+        color: rgba(255, 255, 255, 0.877);
+        text-decoration: none;
+        font-size: 18px;
+      }
+    }
+    .show {
+      height: 94vh;
+      transition: all 0.4s ease cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+  }
+}

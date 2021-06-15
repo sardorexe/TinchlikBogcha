@@ -93,8 +93,8 @@
   .responsive-nav .control .icon {
     color: #fff;
     cursor: pointer;
-    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
   }
   .responsive-nav .control .up {
     -webkit-transform: rotate(180deg);
@@ -115,6 +115,8 @@
         justify-content: space-around;
     height: 0;
     overflow: hidden;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
   }
   .responsive-nav .nav-items a {
     padding: 17px 0px;
@@ -123,9 +125,9 @@
     font-size: 18px;
   }
   .responsive-nav .show {
-    height: 94vh;
-    -webkit-transition: all 0.4s ease cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all 0.4s ease cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 30vh;
+    -webkit-transition: all 0.4s ease ease;
+    transition: all 0.4s ease ease;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

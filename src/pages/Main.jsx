@@ -12,7 +12,7 @@ function Main() {
           </div>
         </div>
         <div className="main-content col-sm-12 col-12 col-md-6 col-lg-6">
-          <h3 className="content-title">Muassasa haqida</h3>
+          <h3 className="content-title">Tashkilot haqida</h3>
           <p className="content-text">Xorazm viloyati Gurlan tumani 5-son <span style={{fontWeight: "bold"}}>"Tinchlik"</span> nomidagi davlat maktabgacha ta'lim tashkiloti</p>
         </div>
       </div>

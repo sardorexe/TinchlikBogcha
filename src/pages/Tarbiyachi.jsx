@@ -15,7 +15,7 @@ function Tarbiyachi() {
           <h3 className="content-title">Tarbiyachi haqida</h3>
           <p className="content-text" style={{fontSize: "16px"}}>
             Xorazm viloyati Gurlan tumani 5-son davlat maktabgacha ta'lim
-            muassasasi tarbiyachisi <span>Abdullayeva Barno Ilxomovna</span>
+            tashkiloti tarbiyachisi <span>Abdullayeva Barno Ilxomovna</span>
           </p>
         </div>
       </div>

@@ -38,9 +38,7 @@ function Navbar() {
           <Link activeClassName="active" to="/">
             Bosh Sahifa
           </Link>
-          <Link activeClassName="active" to="https://gallerytinchlik.netlify.app/">
-            Fotolavha
-          </Link>
+         <a href="https://gallerytinchlik.netlify.app/">Fotolavha</a>
           <Link activeClassName="active" to="/tarbiyachi">
             Tarbiyachi
           </Link>
